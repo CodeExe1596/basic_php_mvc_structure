@@ -92,24 +92,11 @@
 
             ob_start();
 
-            /**
-             * Load Genre Model
-             */
-            $this->loadModel('genre');
-
-            /**
-             * Store Genres
-             */
-            $genres = $this->_model->getAllGenres();
-
-            $data = [
-                'genres' => $genres
-            ];
 
             /**
              * Render error 404 view
              */
-            $this->render('error_404','error', $data);
+            $this->render('error_404','error');
 
             /**
              * Store view in variable
