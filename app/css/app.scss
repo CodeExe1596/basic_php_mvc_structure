@@ -2,10 +2,25 @@
     Common view-parts cascading styles 
 */ 
 
-// Design error-404 page 
-#error-404 
+* 
 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
+// Design error-404 page  
+#error 
+{
+    font-weight: lighter;
+    font-size: 200%;
+    margin: 20% auto;
+    text-align: center;
 }
 
 // Desin header 

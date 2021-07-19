@@ -1,4 +1,21 @@
 /*
     Common view-parts cascading styles 
 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#error {
+  font-weight: lighter;
+  font-size: 200%;
+  margin: 20% auto;
+  text-align: center;
+}
 /*# sourceMappingURL=app.css.map */
