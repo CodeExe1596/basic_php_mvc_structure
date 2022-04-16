@@ -10,7 +10,7 @@ You can find complete PHP Documentation <a href = 'https://www.php.net/manual/en
 Here are features of what you can add to this structure : 
 
 - Build a small dynamic website with Database CRUD 
-- Make an Authentication System (Login/Signin) for the User using database
+- Make an Authentication System (Login/Register/Logout) for the User using database
 
 ## Requirements : 
 Having Wamp, Xamp, or Lamp Server installed in your computer with PHP 7.x or 8 and MySQL 8.0
